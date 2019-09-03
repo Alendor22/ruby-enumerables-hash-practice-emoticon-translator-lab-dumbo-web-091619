@@ -5,7 +5,8 @@ def load_library(path)
   emo_file.each do |key, val|
     out[:get_emoticon][val[0]] = val[1]
     out[:get_meaning][val[1]] = key
-  
+  end
+  out
 end
 
 def get_japanese_emoticon
