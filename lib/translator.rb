@@ -10,7 +10,7 @@ def load_library(path)
 end
 
 def get_japanese_emoticon(path, emote)
-  hash = load_library(path)
+  hash = load_library(path)[:get]
   
 end
 
