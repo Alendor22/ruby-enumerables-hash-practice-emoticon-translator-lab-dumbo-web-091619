@@ -14,8 +14,7 @@ def get_japanese_emoticon(path, emote)
     if !hash.key?(emote)
       return "Sorry, that emoticon was not found"
     end
-    hash
-  
+    hash[emote]
 end
 
 def get_english_meaning
