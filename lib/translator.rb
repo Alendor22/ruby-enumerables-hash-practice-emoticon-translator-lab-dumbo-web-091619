@@ -1,6 +1,6 @@
 require "yaml"
 def load_library(path)
-  emo.file
+  emo_file
 end
 
 def get_japanese_emoticon
