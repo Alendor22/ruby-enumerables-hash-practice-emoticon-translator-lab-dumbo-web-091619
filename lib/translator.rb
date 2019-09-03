@@ -3,7 +3,7 @@ def load_library(path)
   emo_file = YAML.load_file(path)
   out = {get_emoticon: {}, get_meaning: {}}
   emo_file.each do |key, val|
-    out[get_emoticon][val[0]]
+    out[get_emoticon][val[0]] = val1
   
 end
 
