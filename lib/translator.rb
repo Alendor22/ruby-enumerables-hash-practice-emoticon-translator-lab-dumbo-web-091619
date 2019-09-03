@@ -11,7 +11,8 @@ end
 
 def get_japanese_emoticon(path, emote)
   hash = load_library(path)[:get_emoticon]
-    if !hash.key?
+    if !hash.key?(emote)
+      
   
 end
 
