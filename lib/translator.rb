@@ -2,7 +2,8 @@ require "yaml"
 def load_library(path)
   emo_file = YAML.load_file(path)
   out = {get_emoticon: {}, get_meaning: {}}
-  emo_file.each do
+  emo_file.each do |key, val|
+    
   
 end
 
