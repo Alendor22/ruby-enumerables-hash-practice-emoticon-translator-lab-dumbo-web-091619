@@ -20,5 +20,6 @@ end
 def get_english_meaning(path, emote)
   hash = load_library(path)[:get_meaning]
   return "Sorry, that emoticon was not found" if !hash.key?(emote)
-  hash(emote)
+  hash[emote]
+end
 end
