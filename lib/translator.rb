@@ -22,4 +22,3 @@ def get_english_meaning(path, emote)
   return "Sorry, that emoticon was not found" if !hash.key?(emote)
   hash[emote]
 end
-end
