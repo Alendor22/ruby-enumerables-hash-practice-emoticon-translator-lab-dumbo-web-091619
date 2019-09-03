@@ -1,6 +1,7 @@
 require "yaml"
 def load_library(path)
-  emo_file = YAML.load_file
+  emo_file = YAML.load_file(path)
+  
   
 end
 
