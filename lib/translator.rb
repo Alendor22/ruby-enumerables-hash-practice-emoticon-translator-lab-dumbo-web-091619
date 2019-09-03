@@ -1,4 +1,4 @@
-require 
+require "ya"
 
 def load_library
   # code goes here
