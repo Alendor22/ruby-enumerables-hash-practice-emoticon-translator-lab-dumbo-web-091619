@@ -17,6 +17,6 @@ def get_japanese_emoticon(path, emote)
     hash[emote]
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(path, emote)
+  
 end
