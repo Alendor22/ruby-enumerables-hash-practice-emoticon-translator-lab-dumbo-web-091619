@@ -2,8 +2,6 @@ require 'yaml'
 config = YAML.load(yaml_emoticons)
 config = YAML.load_file("config.yml")
 
-YAML.load()
-
 def load_library
   # code goes here
 end
