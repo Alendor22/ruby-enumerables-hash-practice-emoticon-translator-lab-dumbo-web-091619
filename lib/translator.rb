@@ -1,6 +1,6 @@
 require 'yaml'
 config = YAML.load(yaml_string)
-config = YAML
+config = YAML.load_file
 
 YAML.load()
 
